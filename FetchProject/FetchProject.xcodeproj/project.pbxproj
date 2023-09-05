@@ -47,6 +47,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471684AB2AA73040008F24B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				479484212AA7062100F87F1A /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		471684AC2AA7304C008F24B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4794840B2AA7038200F87F1A /* ViewController.swift */,
+				479484252AA70E4F00F87F1A /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		471684AD2AA7305F008F24B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4794841F2AA704B700F87F1A /* TableViewCell.swift */,
+				4794840D2AA7038200F87F1A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		471684AE2AA7307D008F24B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4794841D2AA703C400F87F1A /* DessertModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		479483FB2AA7038200F87F1A = {
 			isa = PBXGroup;
 			children = (
@@ -66,20 +100,26 @@
 		479484062AA7038200F87F1A /* FetchProject */ = {
 			isa = PBXGroup;
 			children = (
-				4794841B2AA703A300F87F1A /* NetworkController.swift */,
-				4794841D2AA703C400F87F1A /* DessertModel.swift */,
-				479484072AA7038200F87F1A /* AppDelegate.swift */,
 				479484092AA7038200F87F1A /* SceneDelegate.swift */,
-				4794840B2AA7038200F87F1A /* ViewController.swift */,
-				479484252AA70E4F00F87F1A /* DetailViewController.swift */,
-				479484212AA7062100F87F1A /* ViewModel.swift */,
-				4794841F2AA704B700F87F1A /* TableViewCell.swift */,
-				4794840D2AA7038200F87F1A /* Main.storyboard */,
+				471684AE2AA7307D008F24B8 /* Model */,
+				471684AD2AA7305F008F24B8 /* View */,
+				471684AC2AA7304C008F24B8 /* Controller */,
+				471684AB2AA73040008F24B8 /* ViewModel */,
+				479484292AA72FE700F87F1A /* NetworkController */,
+				479484072AA7038200F87F1A /* AppDelegate.swift */,
 				479484102AA7038300F87F1A /* Assets.xcassets */,
 				479484122AA7038300F87F1A /* LaunchScreen.storyboard */,
 				479484152AA7038300F87F1A /* Info.plist */,
 			);
 			path = FetchProject;
+			sourceTree = "<group>";
+		};
+		479484292AA72FE700F87F1A /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				4794841B2AA703A300F87F1A /* NetworkController.swift */,
+			);
+			path = NetworkController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
